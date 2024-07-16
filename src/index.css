@@ -1,13 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+.dancing-font {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.homeImage {
+  background-image: url("https://media.istockphoto.com/id/1368278209/fr/photo/gros-plan-du-barista-versant-du-lait-dans-une-tasse-de-caf%C3%A9-au-pub.jpg?s=612x612&w=0&k=20&c=1oD2lj3DcxlMceNUipFH0vb8ojz_opwSjkHSbF8kf3Y=");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imageSlide {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
