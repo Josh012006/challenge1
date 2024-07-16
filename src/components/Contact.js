@@ -23,6 +23,7 @@ function Contact() {
             <label htmlFor="" className='my-2'>Votre message</label>
             <textarea placeholder="Votre message" name='message' className="min-h-56 rounded-lg bg-black p-2 text-white w-3/4"></textarea>
             <br />
+            
             <br />
             <button className='p-3 rounded-lg bg-black text-white' type="submit" form="contactForm" style={{marginTop: '20px', marginBottom: '10px', marginLeft:'60px', marginRight:'60px'}}>Soumettre</button>
         </form>

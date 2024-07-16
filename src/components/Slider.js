@@ -12,14 +12,6 @@ const Slider = ({ images, interval = 3000 }) => {
         return () => clearInterval(timer);
     }, [images.length, interval]);
 
-    const previousSlide = () => {
-        setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
-    };
-
-    const nextSlide = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    };
-
     return (
         <div style={styles.sliderContainer}>
             <img src={images[currentIndex]} alt="slide" style={styles.image} />

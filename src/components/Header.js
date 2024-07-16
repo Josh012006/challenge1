@@ -16,7 +16,7 @@ function Header() {
 
     return(
         <header className="bg-black grid grid-col-1 lg:grid-cols-12 items-center border-b border-b-gray-500">
-            <div className="flex flex-col items-center lg:flex-row col-span-1 lg:col-span-6 justify-center lg:justify-start pl-24">
+            <div className="flex flex-col items-center lg:flex-row col-span-1 lg:col-span-6 justify-center lg:justify-start pl-0 lg:pl-24">
                 <img alt="brand" className="m-3" src="/logo.png"/>
                 <h1 className="font-bold text-3xl lg:text-4xl text-center text-orange-100 dancing-font">Le Café du Coin</h1>
             </div>
