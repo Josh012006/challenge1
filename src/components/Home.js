@@ -6,7 +6,7 @@ function Home() {
         <section className="bg-black flex flex-col items-center" id="home">
             {/* <iframe src="https://www.youtube.com/embed/0jIeCAOkgcQ?si=LpR5V4B2oXDv2aE7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen className="w-full h-full min-h-96" autoPlay ></iframe> */}
             <div className="min-h-96 w-full h-full relative">
-                <video className="min-w-full min-h-full" muted autoPlay loop>
+                <video className="min-w-full min-h-full" controls autoPlay loop>
                     <source src="/home.mp4" type="video/mp4" />
                 </video>
             </div>
