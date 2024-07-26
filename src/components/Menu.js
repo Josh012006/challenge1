@@ -25,7 +25,7 @@ return (
         {drinks.map((drink, index) => (
             <li key={index} className="flex justify-between border-b py-2">
                 <img className='h-28 w-28 lg:h-40 lg:w-40' src={drink.url} alt="drink" />
-                <span>{drink.name}</span>
+                <span className='whitespace-normal'>{drink.name}</span>
                 <span>{drink.price}</span>
             </li>
         ))}
@@ -37,7 +37,7 @@ return (
         {snacks.map((snack, index) => (
             <li key={index} className="flex justify-between border-b py-2">
                 <img className='h-28 w-28 lg:h-40 lg:w-40' src={snack.url} alt="drink" />
-                <span>{snack.name}</span>
+                <span className='whitespace-normal'>{snack.name}</span>
                 <span>{snack.price}</span>
             </li>
         ))}
