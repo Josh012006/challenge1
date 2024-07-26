@@ -17,28 +17,28 @@ const snacks = [
 const Menu = () => {
 return (
 <section id="menu" className="w-full mx-auto p-8 bg-black text-white">
-    <h1 className="text-4xl font-bold text-center mb-8">Café Menu</h1>
+    <h1 className="text-2xl lg:text-3xl font-bold text-center mb-8">Café Menu</h1>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
     <div>
-        <h2 className="text-2xl font-semibold mb-4">Drinks</h2>
+        <h2 className="text-xl lg:text-2xl font-semibold mb-4">Drinks</h2>
         <ul>
         {drinks.map((drink, index) => (
             <li key={index} className="flex justify-between border-b py-2">
-            <img className='h-40 w-40' src={drink.url} alt="drink" />
-            <span>{drink.name}</span>
-            <span>{drink.price}</span>
+                <img className='h-28 w-28 lg:h-40 lg:w-40' src={drink.url} alt="drink" />
+                <span>{drink.name}</span>
+                <span>{drink.price}</span>
             </li>
         ))}
         </ul>
     </div>
     <div>
-        <h2 className="text-2xl font-semibold mb-4">Snacks</h2>
+        <h2 className="text-xl lg:text-2xl font-semibold mb-4">Snacks</h2>
         <ul>
         {snacks.map((snack, index) => (
             <li key={index} className="flex justify-between border-b py-2">
-            <img className='h-40 w-40' src={snack.url} alt="drink" />
-            <span>{snack.name}</span>
-            <span>{snack.price}</span>
+                <img className='h-28 w-28 lg:h-40 lg:w-40' src={snack.url} alt="drink" />
+                <span>{snack.name}</span>
+                <span>{snack.price}</span>
             </li>
         ))}
         </ul>
