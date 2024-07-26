@@ -10,7 +10,7 @@ import Menu from './components/Menu';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App text-base lg:text-xl">
       <Header />
       <Home />
       <Menu />
